@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-demo';
+
+  clicked(payload: string) {
+     console.log(payload);
+  }
 }
